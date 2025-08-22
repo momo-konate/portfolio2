@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Shape - Creative Designer</title>
+    <link href="style.css" rel="stylesheet">
+
+<!--
+
+ 
+
+-->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Mohamed konate</div>
+            <ul class="nav-links">
+                <li><a href="#home">Acceuil</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#portfolio">Projet</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#portfolio">projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-subtitle">Creative Designer</div>
+            <h1>Transformer les idées en belles expériences</h1>
+            <p class="subtitle">Je crée des expériences numériques qui captivent, engagent et inspirent grâce à une conception réfléchie et des solutions innovantes.</p>
+            <a href="#portfolio" class="cta-button">Explorez mon travail</a>
+        </div>
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView()"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">A propos de moi </h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left"></div>
+                <div class="about-text slide-in-right">
+                    <h3>Passionné par la création d'expériences numériques significatives</h3>
+                    <p>Avec plus de 5 ans d'expérience en conception numérique, je me spécialise dans la création de solutions centrées sur l'utilisateur qui comblent le fossé entre fonctionnalité et esthétique. Mon approche combine réflexion stratégique et exécution créative pour obtenir des résultats percutants.</p>
+                    <p>Je crois qu'un bon design ne dépend pas seulement de son apparence, mais aussi de son fonctionnement et de ce que les gens ressentent. Chaque projet est une opportunité de résoudre des problèmes et de créer des liens importants.</p>
+                    <p>Lorsque je ne conçois pas, vous me trouverez en train d'explorer de nouvelles technologies, de dessiner des idées ou de chercher l'inspiration dans la nature et l'architecture.</p>
+                    <div class="skills">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">Web Development</span>
+                         <span class="skill-tag">apps Development</span>
+                        <span class="skill-tag">Identité de marque</span>
+                        <span class="skill-tag">Graphiques animés</span>
+                        <span class="skill-tag">Prototypage</span>
+                        <span class="skill-tag">Systèmes de conception</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">Œuvre en vedette</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Plateforme de commerce électronique(e-commerce)</h4>
+                        <p>Une solution de commerce électronique moderne et réactive axée sur l'expérience utilisateur et l'optimisation des conversions. Conçu dans un souci d’évolutivité et de performances.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Système d'identité de marque</h4>
+                        <p>Refonte complète de l'identité visuelle d'une startup technologique, y compris le logo, les directives et les actifs numériques. Créer une expérience de marque cohérente sur tous les points de contact.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Illustrator</span>
+                            <span class="tech-tag">Photoshop</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Conception d'applications mobiles</h4>
+                        <p>Interface d'application mobile intuitive pour une application de suivi de la condition physique axée sur l'accessibilité et l'engagement des utilisateurs via la gamification.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Principle</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Lottie</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Interface du tableau de bord</h4>
+                        <p>Conception de tableau de bord propre et fonctionnel pour plate-forme d'analyse de données avec une architecture d'informations complexe et une visualisation des données en temps réel.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4>Site Web de commercialisation</h4>
+                        <p>Site Web marketing moderne avec des animations interactives et des entonnoirs de conversion optimisés. Conçu pour des performances et un référencement maximum.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Framer Motion</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"></div>
+                    <div class="portfolio-content">
+                        <h4> Portfolio créatif</h4>
+                        <p>Site Web de portfolio artistique proposant des galeries immersives, des transitions fluides et une narration créative pour un artiste numérique.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">GSAP</span>
+                            <span class="tech-tag">WebGL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-floating-shapes">
+            <div class="contact-shape contact-shape-1"></div>
+            <div class="contact-shape contact-shape-2"></div>
+            <div class="contact-shape contact-shape-3"></div>
+            <div class="contact-shape contact-shape-4"></div>
+            <div class="contact-shape contact-shape-5"></div>
+            <div class="contact-shape contact-shape-6"></div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Travaillons ensemble</h2>
+                <p class="fade-in">Prêt à donner vie à votre vision ? Discutons de la manière dont nous pouvons créer ensemble quelque chose d'incroyable. Je suis toujours ravi de relever de nouveaux défis et de collaborer sur des projets innovants.</p>
+                <form class="contact-form fade-in">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" placeholder="nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder=" .email@exemple.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="De quoi s'agit-il ?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Parlez-moi de votre projet..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Mohamed konate. Tous droits réservés.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#privacy">politique de confidentialité</a>
+                    <a href="#terms">Conditions d'utilisation</a>
+                    <a href="#sitemap">Plan du site</a>
+                     
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
